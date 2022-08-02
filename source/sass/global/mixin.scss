@@ -1,0 +1,15 @@
+@mixin font-options($size, $line-height, $weigt, $color) {
+  font-size: $size;
+  line-height: $line-height;
+  font-weight: $weigt;
+  color: $color;
+}
+
+@mixin button-form {
+  color: $colorText;
+  background-color: $colorBright;
+  width: 256px;
+  height: 56px;
+  border: 1px solid $colorBright;
+  border-radius: 7px;
+}
